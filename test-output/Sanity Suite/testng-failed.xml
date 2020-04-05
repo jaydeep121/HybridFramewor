@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sanity Suite]">
+  <test name="Sanity Test(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.jenkinsBuild.test.LoginPageTest">
+        <methods>
+          <include name="verifyTitle" invocation-numbers="0"/>
+          <include name="initExtent"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="closeExtent"/>
+        </methods>
+      </class> <!-- com.jenkinsBuild.test.LoginPageTest -->
+    </classes>
+  </test> <!-- Sanity Test(failed) -->
+</suite> <!-- Failed suite [Sanity Suite] -->
