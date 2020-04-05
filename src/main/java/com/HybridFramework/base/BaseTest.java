@@ -1,4 +1,4 @@
-package com.jenkinsBuild.base;
+package com.HybridFramework.base;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -15,8 +15,9 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import com.jenkinsBuild.util.TestUtil;
-import com.jenkinsBuild.util.WebEventListener;
+
+import com.HybridFramework.util.TestUtil;
+import com.HybridFramework.util.WebEventListener;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -111,7 +112,5 @@ public class BaseTest {
 		extent.endTest(extentTest); //Ending Test and Ends the Current Test and Prepare to Create HTML Report.
 		//driver.quit();
 		log.info("**************Test End and Browser Terminated*****************");
-		
-	}
-  
+		}
 }

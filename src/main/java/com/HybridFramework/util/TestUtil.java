@@ -1,4 +1,4 @@
-package com.jenkinsBuild.util;
+package com.HybridFramework.util;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -22,7 +22,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.jenkinsBuild.base.BaseTest;
+import com.HybridFramework.base.BaseTest;
 
 public class TestUtil extends BaseTest {
 	public static long Page_Load_TimeOut = 60;

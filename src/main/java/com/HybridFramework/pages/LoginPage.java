@@ -1,10 +1,10 @@
-package com.jenkinsBuild.pages;
+package com.HybridFramework.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.jenkinsBuild.base.BaseTest;
+import com.HybridFramework.base.BaseTest;
 
 public class LoginPage extends BaseTest {
 	

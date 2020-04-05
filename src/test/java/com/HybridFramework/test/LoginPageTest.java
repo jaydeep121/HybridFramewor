@@ -1,12 +1,13 @@
-package com.jenkinsBuild.test;
+package com.HybridFramework.test;
 
 import java.lang.reflect.Method;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import com.jenkinsBuild.base.BaseTest;
-import com.jenkinsBuild.pages.LoginPage;
+
+import com.HybridFramework.base.BaseTest;
+import com.HybridFramework.pages.LoginPage;
 
 public class LoginPageTest extends BaseTest {
 	
